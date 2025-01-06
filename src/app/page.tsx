@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import urlBuilder from "@sanity/image-url"; // Image URL builder for Sanity
 import Hero from "./components/Hero";
+import Comment_ from "../app/components/Comment";
 
 interface Blog {
   title: string;
@@ -77,6 +78,7 @@ export default async function Home() {
 
       {/* Hero Section */}
       <Hero />
+      <Comment_ />
     </div>
   );
 }
