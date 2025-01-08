@@ -13,7 +13,7 @@ const Header = () => {
       <header className="text-gray-600 body-font font-sans font-bold">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <span className="ml-3 text-4xl text-[#044e83] font-bold">Blog Site</span>
+            <span className="ml-3 text-4xl text-[#044e83] font-bold">BLOG-SITE</span>
           </a>
           {/* Hamburger Menu for Small Screens */}
           <button
@@ -45,7 +45,7 @@ const Header = () => {
             <Link href="/" className="mr-5 hover:text-gray-900">
               Home
             </Link>
-            <Link href="/blog" className="mr-5 hover:text-gray-900">
+            <Link href="/blog2" className="mr-5 hover:text-gray-900">
               Blog
             </Link>
             <Link href="/contact" className="mr-5 hover:text-gray-900">
